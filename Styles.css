@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'playstationfont';
+    src: url(./Assets/zrnic/zrnic\ rg.otf);
+}
+@font-face {
+    font-family: 'playstation2font';
+    src: url(./Assets/btse_ps2/btseps2.TTF);
+}
+
+@font-face {
+    font-family: 'supernintendofont';
+    src: url(./Assets/es-cond-demo/EnsconceSansDEMO-Condensed.ttf);
+}
+
+@font-face {
+    font-family: 'n64font';
+    src: url(./Assets/zurich-extra-black-maisfontes.e800/zurich-extra-black.otf);
+}
+
+@font-face {
+    font-family: 'playstation2font2';
+    src: url(./Assets/emotion-engine/Emotion\ Engine.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 2% 6%;
+    color: #E2E2B6;
+    background-color: #0b3480;
+    text-align: center;
+    font-size: 24px;
+}
+
+.botao__menu {
+    object-fit: fill;
+    width: 45px;
+    height: 40px;
+
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont__jogosps1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a5a49b;
+
+    width: 100%;
+    height: 100%;
+    padding: 4% 8% 4% 8%;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.ps1__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+
+}
+
+.cont__logo__ps1 {
+    width: 80px;
+    height: 80px;
+
+}
+
+.textops1games {
+    font-family: 'playstationfont';
+    letter-spacing: 3px;
+    color: #e8363f;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.cont__ps1 {
+    object-fit: contain;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 14px;
+    
+}
+
+.cont__ps1:hover {
+    
+    mask-image: linear-gradient(transparent ,#0b3480);
+    
+}
+
+.cont__jogosps2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #312e2e;
+    background-image: linear-gradient(180deg, #312e2e, #312e2e, #cec9cc);
+    width: 100%;
+    height: 100%;
+    padding: 10% 10% 20% 10%;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.cont__jogosps2__cabecalho {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2%;
+    
+
+}
+
+.textops2 {
+    font-family: 'playstation2font';
+    background: -webkit-linear-gradient(#365ca3,#65d6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+.cont__ps2 {
+    object-fit: cover;
+    width: 200px;
+    height: 290px;
+
+
+}
+
+.cont__jogosSNES {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cec9cc;
+    width: 100%;
+    height: auto;
+    padding: 4% 10% 2% 10%;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.cont__jogosSNES__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+
+
+}
+
+.cont__SNESlogo{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+
+}
+
+.textoSNES {
+    padding: 0px;
+    text-align: center;
+    font-family: 'supernintendofont';
+    font-size: 60px;
+    color: #4f43ae;
+
+
+}
+
+.cont__SNES {
+    object-fit: cover;
+    width: 300px;
+    height: 210px;
+
+}
+
+.cont__jogos64__cabecalho {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont__jogos64 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    padding: 4% 10% 2% 10%;
+    gap: 20px;
+    background-color: #fdc101;
+
+}
+
+.logo64 {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.texto64 {
+    font-size: 40px;
+    font-family: 'n64font';
+    text-align: center;
+    color: #011dac;
+
+
+}
+
+.negrito64 {
+    color: #fb2115;
+
+}
+
+
+
+.rodape{
+    background-color: #0b3480;
+    color: #E2E2B6;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+}
